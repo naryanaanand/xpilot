@@ -1,0 +1,29 @@
+[project]
+name = "xpilot"
+version = "0.1.0"
+description = "AI Twitter/X Agent"
+authors = [
+    {name = "Anand"}
+]
+
+requires-python = ">=3.12"
+
+dependencies = [
+    "openai>=2.0.0",
+    "typer>=0.16.0",
+    "rich>=14.0.0",
+    "python-dotenv>=1.1.0",
+    "httpx>=0.28.0",
+    "pydantic>=2.11.0",
+    "loguru>=0.7.2",
+    "beautifulsoup4>=4.13.0",
+    "requests>=2.32.0",
+    "tweepy>=4.15.0"
+]
+
+[project.scripts]
+xpilot = "main:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
