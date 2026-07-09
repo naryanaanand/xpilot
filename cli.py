@@ -2,13 +2,15 @@ import typer
 
 from rich.console import Console
 
-from commands.test import app as test_app
+from commands.research import app as research_app
 
-app = typer.Typer()
+app = typer.Typer(
+    help="XPilot CLI"
+)
 
 console = Console()
 
 app.add_typer(
-    test_app,
-    name="test"
+    research_app,
+    name="research",
 )
