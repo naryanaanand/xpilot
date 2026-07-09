@@ -1,12 +1,13 @@
 [project]
 name = "xpilot"
 version = "0.1.0"
-description = "AI Twitter/X Agent"
-authors = [
-    {name = "Anand"}
-]
-
+description = "AI Research & Twitter Writing Agent"
+readme = "README.md"
 requires-python = ">=3.12"
+
+authors = [
+    { name = "Anand" }
+]
 
 dependencies = [
     "openai>=2.0.0",
@@ -18,7 +19,7 @@ dependencies = [
     "loguru>=0.7.2",
     "beautifulsoup4>=4.13.0",
     "requests>=2.32.0",
-    "tweepy>=4.15.0"
+    "pyperclip>=1.9.0"
 ]
 
 [project.scripts]
