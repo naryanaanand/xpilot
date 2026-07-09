@@ -1,21 +1,18 @@
 .env
 
 venv/
+.venv/
 
 __pycache__/
-
 *.pyc
 
 logs/
-
 database/
 
 .cache/
 
 .idea/
-
 .vscode/
 
 dist/
-
 build/
