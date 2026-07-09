@@ -40,5 +40,6 @@ py-modules = [
 packages = [
     "agents",
     "tools",
+    "commands",
     "memory"
 ]
