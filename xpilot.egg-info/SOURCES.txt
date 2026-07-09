@@ -1,0 +1,15 @@
+README.md
+cli.py
+config.py
+logger.py
+main.py
+pyproject.toml
+agents/__init__.py
+memory/__init__.py
+tools/__init__.py
+xpilot.egg-info/PKG-INFO
+xpilot.egg-info/SOURCES.txt
+xpilot.egg-info/dependency_links.txt
+xpilot.egg-info/entry_points.txt
+xpilot.egg-info/requires.txt
+xpilot.egg-info/top_level.txt

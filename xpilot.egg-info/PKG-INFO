@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: xpilot
+Version: 0.1.0
+Summary: AI Research & Twitter Writing Agent
+Author: Anand
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: openai>=2.0.0
+Requires-Dist: typer>=0.16.0
+Requires-Dist: rich>=14.0.0
+Requires-Dist: python-dotenv>=1.1.0
+Requires-Dist: httpx>=0.28.0
+Requires-Dist: pydantic>=2.11.0
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: beautifulsoup4>=4.13.0
+Requires-Dist: requests>=2.32.0
+Requires-Dist: pyperclip>=1.9.0
+
+# XPilot
+
+Terminal-first AI assistant for X creators.
+
+## Features
+
+- AI research
+- GitHub research
+- Reddit research
+- Hacker News research
+- Web search
+- Tweet generation
+- Thread generation
+- Critique
+- Local memory
+- Copy generated tweets directly to clipboard
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourname/xpilot.git
+
+cd xpilot
+
+python -m venv .venv
+```
+
+Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Linux / Mac
+
+```bash
+source .venv/bin/activate
+```
+
+Install
+
+```bash
+pip install -e .
+```
+
+Create environment file
+
+```bash
+cp .env.example .env
+```
+
+Run
+
+```bash
+xpilot
+```
