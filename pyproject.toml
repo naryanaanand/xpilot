@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "xpilot"
 version = "0.1.0"
@@ -25,6 +29,16 @@ dependencies = [
 [project.scripts]
 xpilot = "main:app"
 
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
+[tool.setuptools]
+py-modules = [
+    "main",
+    "cli",
+    "config",
+    "logger"
+]
+
+packages = [
+    "agents",
+    "tools",
+    "memory"
+]
